@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kisii university information website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+        <a href="index.html"><img src="pexels-pixabay-355863.jpg" alt="click here" class="logo"></a>
+        <div class="navlinks">
+            <i class="fa fa-window-close" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="intro">
+        <h1>World's Biggest University</h1>
+        <p>Committed to quality through teaching , research and community outreach;providing timely services <br>to foster and develop academic excellence. </p>
+        <a href="#" class="herobtn">Visit our website to know more</a>
+        </div>
+    </section>
+    <script>
+var navlinks=document.querySelector('.navlinks');
+function showmenu(){
+    navlinks.style.right=0;
+}
+function hidemenu(){
+    navlinks.style.right='-300px';
+}
+    </script>
+   <section class="course">
+    <h1>Courses we offer</h1>
+    <p>The campus has a variety of schools including SIST,SASS and SoE</p>
+    <div class="row">
+        <div class="course-col">
+        <h3>SIST</h3>
+        <p>SIST stands for the School of Information Science and Technology.There are various courses offered in this school including Bachelor of science in Software engineering,Computer science Applied Computer Science and Information technology</p>
+        </div>
+        <div class="course-col">
+            <h3>SASS</h3>
+            <p>SASS stands for the School of Arts and Social Sciences.There are a variety of degree courses offered in this school such as Bachelor of arts in Music ,French ,Interior design and Criminology</p>
+    </div>
+    <div class="course-col">
+        <h3>SoE</h3>
+        <p>SoE stands for the School of Education.There are a variety of degree courses offered in this school such as Bachelor of education in Music ,French ,Science and Arts</p>
+</div>
+   </section> 
+   <section class="campus">
+    <h1>Our Global Campus</h1>
+    <p> Our campus has various branches located in diferent parts of the country</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="KISIICAMPUS.jpg" alt="">
+            <div class="area">
+            <h3>KISII</h3>
+            </div>
+        </div>
+            <div class="campus-col">
+                <img src="ICT BUILDING.jpg" alt="">
+                <div class="area">
+                <h3>ELDORET</h3>
+                </div>
+                </div>
+                <div class="campus-col">
+                    <img src="ELDORET CAMPUS.jpg" alt="">
+                    <div class="area">
+                    <h3>HOMABAY</h3>
+                    </div>
+        </div>
+    </div>
+   </section>
+   <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>We've got a variety of infrastructure suited to serve our students in the best way </p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="LIBRARY.jpg">
+            <h3>World class library</h3>
+            <p>The library offers a comfortable study environment and a variety of books for all the courses offered in the campus</p>
+        </div>
+        <div class="facilities-col">
+            <img src="classroom.jpg">
+            <h3>Designer classrooms</h3>
+            <p>We've got clean,spacious and comfortable classrooms that are condusive for studies </p>
+        </div>
+        <div class="facilities-col">
+            <img src="ELDORET CAMPUS.jpg">
+            <h3>ICT Building</h3>
+            <p>The classy ICT building is specially built for the students taking technology courses and is very codusive for their studies</p>
+        </div>
+    </div>
+   </section>
+   <section class="testimonials">
+    <h3>What our students have to say</h3>
+    <p>Let's get the student's thoughts about our campus</p>
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="IMG_20231224_103214.jpg">
+            <div class="thoughts">
+                <p>I have had the best experience so far in this campus, from the condusive classrooms to the spacious and well-lit library.The lecturers are very committed and well-educated passing down the best skills to us.I'm in my third year at the campus and so far I cannot complain. </p>
+                <h1>Shann Norah</h1>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+
+            </div>
+        </div>
+        <div class="testimonials-col">
+            <img src="Snapchat-631310964.jpg">
+            <div class="thoughts">
+                <p>I'm so lucky to be in this campus.I literally cannot picture myself pursuing my course anywhere else.I have gained so much skills since I gained here and the fact that the campus is located in a serene environment makes things even better.</p>
+                <h1>Nisha Haron</h1>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+   </section>
+   <section class="online">
+    <div class="cta">
+    <h2>Enroll For Our Various Online Courses<br> Anywhere From The World</h2>
+    <a href="index.html" class="herobtn">CONTACT US</a>
+    </div>
+   </section>
+   <section class="footer">
+    <h2>About Us</h2>
+    <p>We are a campus committed to provide the best education for our students</p>
+    <div class="icons">
+        <i class="fa fa-twitter"></i>
+<i class="fa fa-facebook-official"></i>
+<i class="fa fa-linkedin"></i>
+<i class="fa fa-whatsapp"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart"></i>by Shann</p>
+    </p>
+   </section>
+</body>
+</html>
+
+
